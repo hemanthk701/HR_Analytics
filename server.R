@@ -3,8 +3,8 @@ library(randomForest)
 server <- function(input, output) {
   
   hr <- reactive({
-    rf <- readRDS("C:/Users/User/Desktop/multivariate/R-2/HR-Analytics/rf.rds")
-    vector <- readRDS("C:/Users/User/Desktop/multivariate/R-2/HR-Analytics/data.rds")
+     rf <- readRDS(gzcon(url("https://raw.githubusercontent.com/hemanthk701/HR_Analytics/main/rf.rds")))
+    vector <- readRDS(gzcon(url("https://raw.githubusercontent.com/hemanthk701/HR_Analytics/main/data.rds")))
     #dept <- input$dept
     dept <- switch(input$dept,"1" = "Sales & Marketing","2"= "Operations","3" ="Technology","4"="Analytics","5"="R&D","6"="Procurement","7"="Finance","8"="HR","9"="Legal")
     reg <- switch(input$reg,"1"="region_1","2"="region_2","3"="region_3","4"="region_4","5" ="region_5",
