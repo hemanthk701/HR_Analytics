@@ -7,4 +7,7 @@ Run the Modelling.R file to get model for our prediction. Using Modelling.R file
 
 *User-Interface*
 UI.R file gives the user interface, while the adjacent server.R connected to that is used to run the background model to predict. 
+
 Link to Shinyapps.io - "https://hemanthk701.shinyapps.io/hr-analytics/"
+
+Link to presentation - "https://www.slideshare.net/HemanthKumar1434/hr-analytics-presentation-241683987"
