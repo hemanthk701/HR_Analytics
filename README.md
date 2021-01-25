@@ -19,3 +19,6 @@ UI.R file gives the user interface, while the adjacent server.R connected to tha
 Link to Shinyapps.io - "https://hemanthk701.shinyapps.io/hr-analytics/"
 
 Link to presentation - "https://www.slideshare.net/HemanthKumar1434/hr-analytics-presentation-241683987"
+
+**Screenshot of the project application**
+ ![alt text](ui_screenshot.png)
