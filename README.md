@@ -2,6 +2,14 @@
 *Objective*
 In this project based on employee data we predict whether that individual would get promoted or not. This can be used by the company to promote a employee or not. An R-Shiny UI was built for this project
 
+*Data Description*
+- The HR analytics dataset is divided into train and test data
+- Train data consists of 54808 rows and 14 features.
+- Test data consists of 23490 rows and 14 features.
+- The dataset contains 6 numerical features and 8 categorical features.
+- Data includes the features such as employee_id, department, education, awards_won, age, gender etc.
+
+
 *Modelling*
 Run the Modelling.R file to get model for our prediction. Using Modelling.R file we dump two R files Data.rds and rf.rds which is then used in server.R to predict whether employee would get promoted or not. We are using random forest classifier model to classify.
 
